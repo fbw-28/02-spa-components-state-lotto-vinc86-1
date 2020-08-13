@@ -1,0 +1,50 @@
+.numbers-container {
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+
+.number {
+    border: 1px solid lightblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.button-container {
+    display: flex;
+    height: 45px;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.btn-reset,
+.btn-generate {
+    padding: 10px 30px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.btn-generate {
+    background: rgb(29, 214, 29)
+}
+
+.btn-generate:hover {
+    background: lightgreen
+}
+
+.btn-reset {
+    background: crimson;
+    color: #fff;
+}
+
+.btn-reset:hover {
+    background: rgb(255, 61, 100);
+}
